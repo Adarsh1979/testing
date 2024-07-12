@@ -1,0 +1,48 @@
+# sahil/    this will ignore all folders jinka nam sahil hai
+
+# /sahil    this will only ignore the sahil folder present in current working directory
+
+# parent/sahil/    this will ignore only the specified folder
+
+# sahil.txt     this will ignore all instances of sahil.txt jaha pe bhi ho
+
+# /sahil.txt     this will only ignore sahil.txt which is in current working directory
+
+# parent/sahil/sahil.txt    this will only ignore sahil.txt present in that location
+
+# *.js
+
+
+# Negating a pattern
+# sahil/
+# !sahil/important.txt
+# This will ignore all sahil directories but still track important.txt inside any sahil directory.
+
+# Wildcards
+# sahil*
+# This will ignore any folder or file that starts with sahil.
+
+# *sahil*
+# This will ignore any folder or file that contains sahil.
+
+# Double asterisks
+# **/sahil/
+# This will ignore all sahil directories at any depth.
+
+# sahil/**/*.txt
+# This will ignore all .txt files inside sahil directories at any depth.
+
+# Ignoring files by extension
+# *.log
+# This will ignore all .log files.
+
+# Ignoring specific types of directories
+# temp/
+# This will ignore all directories named temp.
+
+# Combining patterns
+# **/sahil/**/*.log
+# This will ignore all .log files within any sahil directory at any depth.
+
+
+sahil/
