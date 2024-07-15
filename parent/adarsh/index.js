@@ -1,1 +1,1 @@
-console.log("Normal js file");
+console.log("ABNormal js file");
